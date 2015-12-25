@@ -32,9 +32,5 @@ float Q_rsqrt(float number) {
 int main()
 {
 	double x = Q_rsqrt(32);
-
 	cout << x;
-
-	// Waits for key..
-	getchar();
 }
