@@ -12,7 +12,7 @@ using namespace std;
 int main()
 {
 	// Get username
-	LPTSTR username = L"whytho";
+	TCHAR username[256];
 	DWORD username_len = UNLEN + 1;
 	std::string user;
 	user = GetUserName(username, &username_len);
