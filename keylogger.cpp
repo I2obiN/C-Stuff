@@ -18,6 +18,7 @@ int main()
 	user = GetUserName(username, &username_len);
 
 		ofstream log;
+		// Attempt to create log file
 		log.open("C:\\Users\\" + user + "\\Documents\\dxlog.txt");
 		if (log.good()) {
 			log << cin.getline;
